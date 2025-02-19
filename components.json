@@ -1,0 +1,17 @@
+{
+	"$schema": "https://shadcn-svelte.com/schema.json",
+	"style": "default",
+	"tailwind": {
+		"config": "tailwind.config.ts",
+		"css": "/Users/jeremy/code/github/kiankit/src/app.pcss",
+		"baseColor": "slate"
+	},
+	"aliases": {
+		"components": "@/components",
+		"utils": "@/utils",
+		"ui": "$lib/components/ui",
+		"hooks": "$lib/hooks"
+	},
+	"typescript": true,
+	"registry": "https://next.shadcn-svelte.com/registry"
+}
